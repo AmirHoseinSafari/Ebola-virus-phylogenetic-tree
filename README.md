@@ -4,7 +4,7 @@ here you can find some code which is for my bioinformatics project.
 
 ### P2: (q2.1 file is for local-global alignment) 
 
-  P2.2: To extract the genes of any of Ebola virus, we intend to use the extracted genes of the closest known species known to Ebola virus, Marburg. To do this, it is necessary that each of the Marburg genes is separately aligned with the entire genome of each Ebola species, so that a part of the genome most closely related to each of the genes is assumed to be the same gene in that species. Given that the length of a gene is not comparable with the length of the genome, the global alignment algorithm needs to be modified so that the cost of the initial and the end gaps are only considered 0 for the gene sequence (in fact, the algorithm is between the global and local alignment )
+  P2.2: To extract the genes of any of Ebola virus, we intend to use the extracted genes of the closest known species to Ebola virus, Marburg. To do this, it is necessary that each of the Marburg genes be separately aligned with the entire genome of each Ebola species, so that a part of the genome which is most closely related to each of the genes is assumed to be the same gene in that species. Given that the length of a gene is not comparable with the length of the genome, the global alignment algorithm needs to be modified so that the cost of the initial and the end gaps are only considered 0 for the gene sequence (in fact, the algorithm is between the global and local alignment )
   
   P2.3: global alignment & Edit distance using the Needleman-Wunsch algorithm 
   
